@@ -1,0 +1,26 @@
+.header {
+    padding: 4px;
+    text-align: center;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-Align:right;
+  }
+
+
+
+  .item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap:1.5rem;
+    align-items: center;
+    float: left;
+    
+    padding: 100px;
+
+}
+
+*h3 {
+    font-size: 30px;
+  }
+
